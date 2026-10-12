@@ -4,7 +4,7 @@ A starter Java project managed with Apache Maven demonstrating how to establish 
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Prerequisites](#prerequisites)
@@ -17,7 +17,7 @@ A starter Java project managed with Apache Maven demonstrating how to establish 
 
 ---
 
-## 📖 Overview
+## Overview
 
 This project serves as a foundational template for Java Enterprise Application Development (EAD). It demonstrates:
 - Managing project dependencies using Maven (`pom.xml`).
@@ -26,7 +26,7 @@ This project serves as a foundational template for Java Enterprise Application D
 
 ---
 
-## ⚙️ Prerequisites
+## Prerequisites
 
 Before running this project, ensure you have the following installed:
 
@@ -45,7 +45,7 @@ Before running this project, ensure you have the following installed:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 enterprise/
@@ -62,7 +62,7 @@ enterprise/
 
 ---
 
-## 🗄️ Database Setup
+## Database Setup
 
 1. Start your MySQL server if it is not already active:
    ```bash
@@ -88,7 +88,7 @@ enterprise/
 
 ---
 
-## 🔧 Configuration
+## Configuration
 
 Update the connection credentials in [`Main.java`](file:///home/ruza/Projects/EAD/enterprise/src/main/java/org/example/Main.java) (or [`JDBCDemo.java`](file:///home/ruza/Projects/EAD/enterprise/src/main/java/org/example/JDBCDemo.java)) to match your MySQL setup:
 
@@ -106,7 +106,7 @@ String password = "your_password";
 
 ---
 
-## 🚀 Building and Running
+## Building and Running
 
 ### Option 1: Using Maven Command Line
 
@@ -141,7 +141,7 @@ Established Connection!
 
 ---
 
-## 🧠 Code Overview
+## Code Overview
 
 The project relies on standard JDBC API components:
 
@@ -166,7 +166,7 @@ The project relies on standard JDBC API components:
 
 ---
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 
 - **`ClassNotFoundException: com.mysql.cj.jdbc.Driver`**:
   Make sure Maven dependencies have been downloaded properly by running `mvn clean install`.
